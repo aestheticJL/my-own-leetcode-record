@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a635b64d-9f63-416e-8a2d-c7f38414de4b" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/string/翻转字符串里的单词/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/backtracking_algorithm/全排列/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/my-own-leetcode-record/string/翻转字符串里的单词/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/my-own-leetcode-record/string/翻转字符串里的单词/Solution.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,24 +15,12 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="Solution.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/string/翻转字符串里的单词/Solution.java">
+        <entry file="file://$PROJECT_DIR$/src/backtracking_algorithm/全排列/Solution.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="385">
-              <caret line="28" column="50" lean-forward="true" selection-start-line="28" selection-start-column="50" selection-end-line="28" selection-end-column="50" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Solution.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/string/括号生成/Solution.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="15" selection-start-line="15" selection-end-line="19" selection-end-column="3" />
+            <state relative-caret-position="271">
+              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -57,6 +46,8 @@
         <option value="$PROJECT_DIR$/src/string/Solution.java" />
         <option value="$PROJECT_DIR$/src/string/括号生成/Solution.java" />
         <option value="$PROJECT_DIR$/src/string/翻转字符串里的单词/Solution.java" />
+        <option value="$PROJECT_DIR$/src/string/鸡蛋掉落/Solution.java" />
+        <option value="$PROJECT_DIR$/src/backtracking_algorithm/全排列/Solution.java" />
       </list>
     </option>
   </component>
@@ -81,7 +72,6 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
@@ -95,23 +85,11 @@
               <item name="my-own-leetcode-record" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="my-own-leetcode-record" type="b2602c69:ProjectViewProjectNode" />
-              <item name="my-own-leetcode-record" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="string" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="my-own-leetcode-record" type="b2602c69:ProjectViewProjectNode" />
-              <item name="my-own-leetcode-record" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="string" type="462c0819:PsiDirectoryNode" />
-              <item name="括号生成" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -137,7 +115,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Solution (1)">
+  <component name="RunManager" selected="Application.Solution (3)">
     <configuration name="Solution (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="string.翻转字符串里的单词.Solution" />
       <module name="my-own-leetcode-record" />
@@ -145,6 +123,28 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="string.翻转字符串里的单词.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="Solution (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="string.鸡蛋掉落.Solution" />
+      <module name="my-own-leetcode-record" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="string.鸡蛋掉落.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="Solution (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="backtracking_algorithm.全排列.Solution" />
+      <module name="my-own-leetcode-record" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="backtracking_algorithm.全排列.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -204,9 +204,13 @@
     <list>
       <item itemvalue="Application.Solution" />
       <item itemvalue="Application.Solution (1)" />
+      <item itemvalue="Application.Solution (2)" />
+      <item itemvalue="Application.Solution (3)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Solution (3)" />
+        <item itemvalue="Application.Solution (2)" />
         <item itemvalue="Application.Solution (1)" />
         <item itemvalue="Application.Solution" />
       </list>
@@ -223,12 +227,14 @@
       <option name="presentableId" value="Default" />
       <updated>1586415002925</updated>
       <workItem from="1586415007300" duration="5465000" />
-      <workItem from="1586499141968" duration="1947000" />
+      <workItem from="1586499141968" duration="2100000" />
+      <workItem from="1586592514010" duration="8908000" />
+      <workItem from="1586673479195" duration="1989000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7412000" />
+    <option name="totallyTimeSpent" value="18462000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -252,11 +258,11 @@
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49865952" weight="0.2724679" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32952926" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49865952" weight="0.32952926" />
       <window_info anchor="right" id="Mybatis datasource" order="3" show_stripe_button="false" side_tool="true" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.3281027" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -275,24 +281,49 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="6" />
+      <option name="time" value="16" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/string/括号生成/Solution.java">
+    <entry file="file://$PROJECT_DIR$/src/string/鸡蛋掉落/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="15" selection-start-line="15" selection-end-line="19" selection-end-column="3" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state>
+          <caret line="44" column="3" lean-forward="true" selection-start-line="44" selection-start-column="3" selection-end-line="44" selection-end-column="3" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/string/翻转字符串里的单词/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="385">
-          <caret line="28" column="50" lean-forward="true" selection-start-line="28" selection-start-column="50" selection-end-line="28" selection-end-column="50" />
+        <state relative-caret-position="95">
+          <caret line="39" column="6" selection-start-line="39" selection-start-column="6" selection-end-line="39" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/string/括号生成/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="15" selection-start-line="15" selection-end-line="19" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/string/翻转字符串里的单词/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="424">
+          <caret line="39" column="6" selection-start-line="39" selection-start-column="6" selection-end-line="39" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/string/鸡蛋掉落/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="44" column="3" selection-start-line="44" selection-start-column="3" selection-end-line="44" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/backtracking_algorithm/全排列/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="271">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
