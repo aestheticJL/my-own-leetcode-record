@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a635b64d-9f63-416e-8a2d-c7f38414de4b" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/listNode/两数相加/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bfs/o1矩阵/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -29,15 +29,22 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Solution.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Solution.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/listNode/两数相加/Solution.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="347">
-              <caret line="54" column="28" lean-forward="true" selection-start-line="54" selection-start-column="28" selection-end-line="54" selection-end-column="28" />
+            <state relative-caret-position="19">
+              <caret line="19" column="19" lean-forward="true" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Solution.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/bfs/o1矩阵/Solution.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="475">
+              <caret line="34" column="7" selection-start-line="34" selection-start-column="7" selection-end-line="34" selection-end-column="7" />
               <folding>
-                <element signature="e#0#474#0" expanded="true" />
-                <element signature="e#274#275#0" expanded="true" />
-                <element signature="e#305#306#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -65,6 +72,8 @@
         <option value="$PROJECT_DIR$/src/backtracking_algorithm/全排列/Solution.java" />
         <option value="$PROJECT_DIR$/src/design/设计推特/Twitter.java" />
         <option value="$PROJECT_DIR$/src/listNode/两数相加/Solution.java" />
+        <option value="$PROJECT_DIR$/src/bfs/01矩阵/Solution.java" />
+        <option value="$PROJECT_DIR$/src/bfs/o1矩阵/Solution.java" />
       </list>
     </option>
   </component>
@@ -89,7 +98,6 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -107,6 +115,7 @@
         </subPane>
       </pane>
       <pane id="AndroidView" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -132,7 +141,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Twitter">
+  <component name="RunManager" selected="Application.Solution (4)">
     <configuration name="Solution (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="string.翻转字符串里的单词.Solution" />
       <module name="my-own-leetcode-record" />
@@ -166,13 +175,13 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="string.括号生成.Solution" />
+    <configuration name="Solution (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bfs.o1矩阵.Solution" />
       <module name="my-own-leetcode-record" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="string.括号生成.*" />
+          <option name="PATTERN" value="bfs.o1矩阵.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -230,19 +239,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.Solution" />
       <item itemvalue="Application.Solution (1)" />
       <item itemvalue="Application.Solution (2)" />
       <item itemvalue="Application.Solution (3)" />
       <item itemvalue="Application.Twitter" />
+      <item itemvalue="Application.Solution (4)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Solution (4)" />
         <item itemvalue="Application.Twitter" />
         <item itemvalue="Application.Solution (3)" />
         <item itemvalue="Application.Solution (2)" />
         <item itemvalue="Application.Solution (1)" />
-        <item itemvalue="Application.Solution" />
       </list>
     </recent_temporary>
   </component>
@@ -261,42 +270,43 @@
       <workItem from="1586592514010" duration="8908000" />
       <workItem from="1586673479195" duration="2050000" />
       <workItem from="1586757055361" duration="4477000" />
-      <workItem from="1586843183254" duration="3198000" />
+      <workItem from="1586843183254" duration="3291000" />
+      <workItem from="1586932869607" duration="11394000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26198000" />
+    <option name="totallyTimeSpent" value="37685000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info anchor="right" id="Key Promoter X" order="3" />
+      <window_info anchor="right" id="Key Promoter X" order="11" weight="0.3297587" />
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="3" />
-      <window_info id="Image Layers" order="2" />
-      <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5013405" side_tool="true" weight="0.32952926" />
-      <window_info anchor="right" id="Maven Projects" order="3" />
+      <window_info anchor="right" id="Maven Projects" order="4" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49865952" weight="0.2724679" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32952926" />
-      <window_info anchor="right" id="Mybatis datasource" order="3" show_stripe_button="false" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3281027" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17493297" />
-      <window_info anchor="right" id="Database" order="3" weight="0.3297587" />
+      <window_info anchor="right" id="Database" order="5" weight="0.3297587" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
-      <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39942938" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="right" id="Redis Explorer" order="3" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.37945792" />
+      <window_info anchor="right" id="Redis Explorer" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Messages" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info id="Image Layers" order="2" />
+      <window_info anchor="right" id="Capture Analysis" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32952926" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49865952" weight="0.2724679" />
+      <window_info anchor="right" id="Mybatis datasource" order="9" show_stripe_button="false" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3281027" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17493297" />
+      <window_info anchor="right" id="Theme Preview" order="10" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -313,10 +323,17 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="17" />
+      <option name="time" value="33" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/listNode/两数相加/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="54" column="28" lean-forward="true" selection-start-line="54" selection-start-column="28" selection-end-line="54" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/design/设计推特/Twitter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2584">
@@ -335,9 +352,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="399">
           <caret line="21" column="38" lean-forward="true" selection-start-line="21" selection-start-column="38" selection-end-line="21" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -373,9 +387,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
           <caret line="21" column="38" selection-start-line="21" selection-start-column="38" selection-end-line="21" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -395,12 +406,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/listNode/两数相加/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="347">
-          <caret line="54" column="28" lean-forward="true" selection-start-line="54" selection-start-column="28" selection-end-line="54" selection-end-column="28" />
+        <state relative-caret-position="19">
+          <caret line="19" column="19" lean-forward="true" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bfs/o1矩阵/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="34" column="7" selection-start-line="34" selection-start-column="7" selection-end-line="34" selection-end-column="7" />
           <folding>
-            <element signature="e#0#474#0" expanded="true" />
-            <element signature="e#274#275#0" expanded="true" />
-            <element signature="e#305#306#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
