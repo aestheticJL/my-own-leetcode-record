@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a635b64d-9f63-416e-8a2d-c7f38414de4b" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/array/盛水最多的容器/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sort/快速排序/QuickSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -29,16 +29,26 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Solution.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/array/盛水最多的容器/Solution.java">
+      <file leaf-file-name="QuickSort.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/sort/快速排序/QuickSort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="14" column="3" lean-forward="true" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
+            <state relative-caret-position="190">
+              <caret line="10" column="30" lean-forward="true" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
+              <folding>
+                <element signature="e#0#983#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -65,6 +75,8 @@
         <option value="$PROJECT_DIR$/src/array/合并区间/Solution.java" />
         <option value="$PROJECT_DIR$/src/array/跳跃游戏/Solution.java" />
         <option value="$PROJECT_DIR$/src/array/盛水最多的容器/Solution.java" />
+        <option value="$PROJECT_DIR$/src/sort/快速排序/Solution.java" />
+        <option value="$PROJECT_DIR$/src/sort/快速排序/QuickSort.java" />
       </list>
     </option>
   </component>
@@ -74,7 +86,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-10" />
     <option name="y" value="-10" />
     <option name="width" value="980" />
@@ -104,15 +116,15 @@
               <item name="my-own-leetcode-record" type="b2602c69:ProjectViewProjectNode" />
               <item name="my-own-leetcode-record" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="array" type="462c0819:PsiDirectoryNode" />
+              <item name="快速排序" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="AndroidView" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -138,14 +150,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Solution (4)">
-    <configuration name="Solution (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="string.翻转字符串里的单词.Solution" />
+  <component name="RunManager" selected="Application.QuickSort">
+    <configuration name="QuickSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sort.快速排序.QuickSort" />
       <module name="my-own-leetcode-record" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="string.翻转字符串里的单词.*" />
+          <option name="PATTERN" value="sort.快速排序.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -236,19 +248,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.Solution (1)" />
       <item itemvalue="Application.Solution (2)" />
       <item itemvalue="Application.Solution (3)" />
       <item itemvalue="Application.Twitter" />
       <item itemvalue="Application.Solution (4)" />
+      <item itemvalue="Application.QuickSort" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.QuickSort" />
         <item itemvalue="Application.Solution (4)" />
         <item itemvalue="Application.Twitter" />
         <item itemvalue="Application.Solution (3)" />
         <item itemvalue="Application.Solution (2)" />
-        <item itemvalue="Application.Solution (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -272,12 +284,14 @@
       <workItem from="1587017773616" duration="7395000" />
       <workItem from="1587033295036" duration="1194000" />
       <workItem from="1587104019392" duration="2054000" />
-      <workItem from="1587189104096" duration="859000" />
+      <workItem from="1587189104096" duration="1268000" />
+      <workItem from="1587226466608" duration="145000" />
+      <workItem from="1587277877078" duration="3551000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50427000" />
+    <option name="totallyTimeSpent" value="54532000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -285,29 +299,29 @@
     <layout>
       <window_info anchor="right" id="Key Promoter X" order="11" weight="0.3297587" />
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info id="Image Layers" order="2" />
-      <window_info anchor="right" id="Capture Analysis" order="8" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5013405" side_tool="true" weight="0.32952926" />
       <window_info anchor="right" id="Maven Projects" order="4" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32952926" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49865952" weight="0.2724679" />
-      <window_info anchor="right" id="Mybatis datasource" order="9" show_stripe_button="false" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3281027" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17493297" />
       <window_info anchor="right" id="Database" order="5" weight="0.3297587" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Structure" order="1" sideWeight="0.5007133" side_tool="true" visible="true" weight="0.17493297" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
-      <window_info anchor="right" id="Theme Preview" order="10" />
-      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.37945792" />
       <window_info anchor="right" id="Redis Explorer" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Messages" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info id="Image Layers" order="2" />
+      <window_info anchor="right" id="Capture Analysis" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32952926" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49865952" weight="0.41797432" />
+      <window_info anchor="right" id="Mybatis datasource" order="9" show_stripe_button="false" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3281027" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49928674" visible="true" weight="0.17493297" />
+      <window_info anchor="right" id="Theme Preview" order="10" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -324,17 +338,31 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="33" />
+      <option name="time" value="39" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/sort/快速排序/QuickSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+          <folding>
+            <element signature="e#0#983#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/array/盛水最多的容器/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="3" lean-forward="true" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/array/合并区间/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="361">
           <caret line="19" column="1" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -349,9 +377,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="361">
           <caret line="19" column="1" lean-forward="true" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -359,9 +384,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="17" column="47" lean-forward="true" selection-start-line="17" selection-start-column="47" selection-end-line="17" selection-end-column="47" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -488,16 +510,24 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="361">
           <caret line="19" column="1" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/array/盛水最多的容器/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="3" lean-forward="true" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
+        <state relative-caret-position="304">
+          <caret line="16" column="16" lean-forward="true" selection-end-line="31" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sort/快速排序/Solution.java" />
+    <entry file="file://$PROJECT_DIR$/src/sort/快速排序/QuickSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="30" lean-forward="true" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#983#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
