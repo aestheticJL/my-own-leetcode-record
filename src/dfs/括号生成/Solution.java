@@ -25,7 +25,7 @@
 */
 
 
-package string.括号生成;
+package dfs.括号生成;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -22,7 +22,7 @@
 执行用时 :3 ms, 在所有 Java 提交中击败了36.96%的用户
 内存消耗 :41.9 MB, 在所有 Java 提交中击败了12.50%的用户
   */
-package array.跳跃游戏;
+package dp.跳跃游戏;
 
 class Solution {
     public boolean canJump(int[] nums) {

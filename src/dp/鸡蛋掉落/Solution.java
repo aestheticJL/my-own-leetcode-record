@@ -43,7 +43,7 @@
     该方法未优化，时间复杂度为N^2*K易超时
 ###
  */
-package string.鸡蛋掉落;
+package dp.鸡蛋掉落;
 
 import java.util.Arrays;
 

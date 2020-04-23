@@ -22,7 +22,7 @@
 内存消耗 :39.9 MB, 在所有 Java 提交中击败了5.13%的用户
 
  */
-package backtracking_algorithm.全排列;
+package dfs.全排列;
 
 import java.util.ArrayList;
 import java.util.List;
