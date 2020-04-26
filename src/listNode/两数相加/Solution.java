@@ -19,19 +19,11 @@
  */
 package listNode.两数相加;
 
+import listNode.ListNode;
+
 import java.util.Stack;
 
 class Solution {
-
-    public class ListNode {
-        int val;
-        ListNode next;
-
-        ListNode(int x) {
-            val = x;
-        }
-    }
-
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
         if (l1 == null) {
             return l2;
@@ -53,8 +45,8 @@ class Solution {
         ListNode result = null;
         while (!stack1.isEmpty() || !stack2.isEmpty() || carry != 0) {
             int sum = carry;
-            sum+=stack1.isEmpty()?0:stack1.pop();
-            sum+=stack2.isEmpty()?0:stack2.pop();
+            sum += stack1.isEmpty() ? 0 : stack1.pop();
+            sum += stack2.isEmpty() ? 0 : stack2.pop();
             ListNode newNode = new ListNode(sum % 10);
             newNode.next = result;
             result = newNode;
