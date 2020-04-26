@@ -2,15 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a635b64d-9f63-416e-8a2d-c7f38414de4b" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/listNode/ListNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/listNode/合并K个排序链表/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/heap/topN/topN.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/my-own-leetcode-record/array/优美子数组/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/my-own-leetcode-record/array/优美子数组/Solution.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/my-own-leetcode-record/array/跳跃游戏/Solution.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/my-own-leetcode-record/backtracking_algorithm/全排列/Solution.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/my-own-leetcode-record/string/括号生成/Solution.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/my-own-leetcode-record/string/鸡蛋掉落/Solution.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/listNode/两数相加/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/listNode/两数相加/Solution.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -36,11 +29,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Solution.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Solution.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/listNode/合并K个排序链表/Solution.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="304">
-              <caret line="16" column="42" selection-start-line="16" selection-start-column="42" selection-end-line="16" selection-end-column="42" />
+              <caret line="16" column="42" lean-forward="true" selection-start-line="16" selection-start-column="42" selection-end-line="16" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="topN.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/heap/topN/topN.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="575">
+              <caret line="46" column="25" lean-forward="true" selection-start-line="46" selection-start-column="25" selection-end-line="46" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -121,6 +123,7 @@
         <option value="$PROJECT_DIR$/src/listNode/两数相加/Solution.java" />
         <option value="$PROJECT_DIR$/src/listNode/ListNode.java" />
         <option value="$PROJECT_DIR$/src/listNode/合并K个排序链表/Solution.java" />
+        <option value="$PROJECT_DIR$/src/heap/topN/topN.java" />
       </list>
     </option>
   </component>
@@ -160,14 +163,7 @@
               <item name="my-own-leetcode-record" type="b2602c69:ProjectViewProjectNode" />
               <item name="my-own-leetcode-record" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="listNode" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="my-own-leetcode-record" type="b2602c69:ProjectViewProjectNode" />
-              <item name="my-own-leetcode-record" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="listNode" type="462c0819:PsiDirectoryNode" />
-              <item name="两数相加" type="462c0819:PsiDirectoryNode" />
+              <item name="topN" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -211,6 +207,17 @@
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
+    <configuration name="topN" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="heap.topN.topN" />
+      <module name="my-own-leetcode-record" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="heap.topN.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -249,6 +256,11 @@
       <properties />
       <listeners />
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.topN" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -280,12 +292,12 @@
       <workItem from="1587547234615" duration="1863000" />
       <workItem from="1587629520719" duration="5754000" />
       <workItem from="1587706474462" duration="3627000" />
-      <workItem from="1587881663359" duration="3933000" />
+      <workItem from="1587881663359" duration="6650000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="80622000" />
+    <option name="totallyTimeSpent" value="83339000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -567,6 +579,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
           <caret line="40" column="6" selection-start-line="40" selection-start-column="6" selection-end-line="40" selection-end-column="6" />
+          <folding>
+            <element signature="e#0#1944#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -605,7 +620,14 @@
     <entry file="file://$PROJECT_DIR$/src/listNode/合并K个排序链表/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="304">
-          <caret line="16" column="42" selection-start-line="16" selection-start-column="42" selection-end-line="16" selection-end-column="42" />
+          <caret line="16" column="42" lean-forward="true" selection-start-line="16" selection-start-column="42" selection-end-line="16" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/heap/topN/topN.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="575">
+          <caret line="46" column="25" lean-forward="true" selection-start-line="46" selection-start-column="25" selection-end-line="46" selection-end-column="25" />
         </state>
       </provider>
     </entry>
