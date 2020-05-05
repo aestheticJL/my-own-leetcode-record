@@ -21,6 +21,8 @@
  */
 package tree.二叉树的右视图;
 
+import tree.TreeNode;
+
 import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
@@ -28,15 +30,6 @@ import java.util.Queue;
 
 
 class Solution {
-    public class TreeNode {
-        int val;
-        TreeNode left;
-        TreeNode right;
-
-        TreeNode(int x) {
-            val = x;
-        }
-    }
 
     public List<Integer> rightSideView(TreeNode root) {
         if (root == null) {
