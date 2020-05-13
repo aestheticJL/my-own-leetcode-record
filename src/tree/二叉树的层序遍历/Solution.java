@@ -43,19 +43,17 @@ class Solution {
             List<Integer> newList = new ArrayList<>();
             for (TreeNode treeNode : queue) {
                 if (treeNode!=null)
-                newList.add(treeNode.val);
+                    newList.add(treeNode.val);
             }
             res.add(newList);
-            Queue<TreeNode> newqueue = new LinkedList<>();
             int size = queue.size();
             for (int i = 0; i < size; i++) {
                 TreeNode poll = queue.poll();
                 if (poll.left!=null)
-                newqueue.offer(poll.left);
+                    queue.offer(poll.left);
                 if (poll.right!=null)
-                newqueue.offer(poll.right);
+                    queue.offer(poll.right);
             }
-            queue = newqueue;
         }
         return res;
     }
