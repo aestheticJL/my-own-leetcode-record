@@ -39,7 +39,7 @@ package bfs.o1矩阵;
 import java.util.LinkedList;
 import java.util.Queue;
 
-class Solution {
+class Solution{
     public static int[][] run = {{0, 1}, {0, -1}, {1, 0}, {-1, 0}};
 
     public static int[][] updateMatrix(int[][] matrix) {
