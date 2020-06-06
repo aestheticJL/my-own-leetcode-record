@@ -1,3 +1,5 @@
+import com.sun.org.apache.bcel.internal.generic.GOTO;
+
 import java.util.*;
 
 public class test {
@@ -8,5 +10,6 @@ public class test {
         Arrays.sort(s, (s1, s2) -> s2.length() - s1.length());
         Collections.sort(list, (o1, o2) -> o2 - o1);
         System.out.println(list);
+        new Thread(() -> System.out.println("go"));
     }
 }
