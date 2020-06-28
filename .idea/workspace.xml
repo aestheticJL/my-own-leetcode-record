@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a635b64d-9f63-416e-8a2d-c7f38414de4b" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/listNode/移除重复节点/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/array/长度最小的子数组/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -31,14 +31,14 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="Solution.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/listNode/移除重复节点/Solution.java">
+        <entry file="file://$PROJECT_DIR$/src/array/长度最小的子数组/Solution.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="21" column="14" lean-forward="true" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="14" />
+            <state relative-caret-position="304">
+              <caret line="16" column="3" lean-forward="true" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#0#753#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -73,7 +73,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/listNode/合并两个有序链表/Solution.java" />
         <option value="$PROJECT_DIR$/src/string/无重复字符的最长子串/Solution.java" />
         <option value="$PROJECT_DIR$/src/dp/最大字序和/Solution.java" />
         <option value="$PROJECT_DIR$/src/dp/跳跃游戏II/Solution.java" />
@@ -124,6 +123,7 @@
         <option value="$PROJECT_DIR$/src/string/二进制求和/Solution.java" />
         <option value="$PROJECT_DIR$/src/array/最接近的三数之和/Solution.java" />
         <option value="$PROJECT_DIR$/src/listNode/移除重复节点/Solution.java" />
+        <option value="$PROJECT_DIR$/src/array/长度最小的子数组/Solution.java" />
       </list>
     </option>
   </component>
@@ -146,7 +146,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -163,14 +163,14 @@
               <item name="my-own-leetcode-record" type="b2602c69:ProjectViewProjectNode" />
               <item name="my-own-leetcode-record" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="listNode" type="462c0819:PsiDirectoryNode" />
+              <item name="array" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -346,12 +346,13 @@
       <workItem from="1592887372403" duration="4530000" />
       <workItem from="1592984903943" duration="4243000" />
       <workItem from="1593001263461" duration="2894000" />
-      <workItem from="1593149035278" duration="950000" />
+      <workItem from="1593149035278" duration="984000" />
+      <workItem from="1593323071105" duration="1391000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="249490000" />
+    <option name="totallyTimeSpent" value="250915000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -369,7 +370,7 @@
       <window_info anchor="bottom" id="Version Control" order="10" weight="0.32952926" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49865952" weight="0.2510699" />
       <window_info anchor="right" id="Mybatis datasource" order="9" show_stripe_button="false" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.34379458" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.34330484" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Designer" order="2" />
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4978602" visible="true" weight="0.18297587" />
@@ -464,13 +465,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/tree/从前序与中序遍历序列构造二叉树/Solution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="27" column="24" lean-forward="true" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/string/最长回文子串/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -810,10 +804,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/listNode/移除重复节点/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="21" column="14" lean-forward="true" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="14" />
+        <state relative-caret-position="373">
+          <caret line="21" column="14" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="14" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/array/长度最小的子数组/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="3" lean-forward="true" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
+          <folding>
+            <element signature="e#0#753#0" expanded="true" />
           </folding>
         </state>
       </provider>
