@@ -10,7 +10,7 @@
 执行用时 :23 ms, 在所有 Java 提交中击败了65.00%的用户
 内存消耗 :47.1 MB, 在所有 Java 提交中击败了6.45%的用户
  */
-package array.每日温度;
+package stack.每日温度;
 
 import java.util.Arrays;
 import java.util.Stack;
