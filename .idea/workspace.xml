@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a635b64d-9f63-416e-8a2d-c7f38414de4b" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/dp/最长重复子数组/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tree/将有序数组转换为二叉搜索树/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -33,10 +33,10 @@
   <component name="FileEditorManager">
     <leaf>
       <file leaf-file-name="Solution.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/dp/最长重复子数组/Solution.java">
+        <entry file="file://$PROJECT_DIR$/src/tree/将有序数组转换为二叉搜索树/Solution.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+            <state relative-caret-position="399">
+              <caret line="21" column="32" lean-forward="true" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -70,9 +70,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/tree/验证二叉搜索树/Solution.java" />
-        <option value="$PROJECT_DIR$/src/dp/最低票价/Solution.java" />
-        <option value="$PROJECT_DIR$/src/Solution.java" />
         <option value="$PROJECT_DIR$/src/tree/相同的树/Solution.java" />
         <option value="$PROJECT_DIR$/src/tree/另一个树的子树/Solution.java" />
         <option value="$PROJECT_DIR$/src/other/x的平方根/Solution.java" />
@@ -121,6 +118,9 @@
         <option value="$PROJECT_DIR$/src/stack/用两个栈实现队列/CQueue.java" />
         <option value="$PROJECT_DIR$/src/design/用两个栈实现队列/CQueue.java" />
         <option value="$PROJECT_DIR$/src/dp/最长重复子数组/Solution.java" />
+        <option value="$PROJECT_DIR$/src/array/有序矩阵中第K小的元素/Solution.java" />
+        <option value="$PROJECT_DIR$/src/array/搜索二维矩阵/Solution.java" />
+        <option value="$PROJECT_DIR$/src/tree/将有序数组转换为二叉搜索树/Solution.java" />
       </list>
     </option>
   </component>
@@ -143,7 +143,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -160,14 +159,15 @@
               <item name="my-own-leetcode-record" type="b2602c69:ProjectViewProjectNode" />
               <item name="my-own-leetcode-record" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="dp" type="462c0819:PsiDirectoryNode" />
+              <item name="tree" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -201,11 +201,6 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Test" />
-      <module name="my-own-leetcode-record" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -247,11 +242,6 @@
       <properties />
       <listeners />
     </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.Test" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -348,12 +338,16 @@
       <workItem from="1593403944188" duration="5333000" />
       <workItem from="1593439494588" duration="91000" />
       <workItem from="1593496417507" duration="1631000" />
-      <workItem from="1593584922498" duration="1222000" />
+      <workItem from="1593584922498" duration="1379000" />
+      <workItem from="1593669372534" duration="2686000" />
+      <workItem from="1593677942166" duration="13000" />
+      <workItem from="1593680478595" duration="1294000" />
+      <workItem from="1593787332425" duration="1082000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="259239000" />
+    <option name="totallyTimeSpent" value="264471000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -368,10 +362,10 @@
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5013405" side_tool="true" weight="0.32952926" />
       <window_info anchor="right" id="Maven Projects" order="4" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="10" weight="0.32952926" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49865952" weight="0.2510699" />
+      <window_info anchor="bottom" id="Version Control" order="10" weight="0.32952926" />
       <window_info anchor="right" id="Mybatis datasource" order="9" show_stripe_button="false" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.34094152" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.34045583" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Designer" order="2" />
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4978602" visible="true" weight="0.18297587" />
@@ -380,8 +374,8 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="3" />
       <window_info anchor="right" id="Theme Preview" order="10" />
-      <window_info id="Favorites" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.37945792" />
+      <window_info id="Favorites" order="4" side_tool="true" />
       <window_info anchor="right" id="Redis Explorer" order="6" weight="0.3297587" />
       <window_info anchor="bottom" id="Messages" order="9" weight="0.32952926" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -466,27 +460,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_221/src.zip!/java/util/Collection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2242">
-          <caret line="143" column="42" selection-start-line="143" selection-start-column="42" selection-end-line="143" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/array/和可被K整除的子数组/Solution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="21" column="20" lean-forward="true" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/array/合并区间/Solution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="7" column="35" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/array/优美子数组/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
@@ -806,8 +779,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/dp/最长重复子数组/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+        <state relative-caret-position="247">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/array/搜索二维矩阵/Solution.java" />
+    <entry file="file://$PROJECT_DIR$/src/array/有序矩阵中第K小的元素/Solution.java" />
+    <entry file="file://$PROJECT_DIR$/src/tree/将有序数组转换为二叉搜索树/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="21" column="32" lean-forward="true" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
         </state>
       </provider>
     </entry>
