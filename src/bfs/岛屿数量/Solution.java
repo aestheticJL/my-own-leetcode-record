@@ -30,7 +30,7 @@ dfs和bfs皆可，选择了实现比较方便的dfs
 2 ms, 在所有 Java 提交中击败了96.16%的用户
 内存消耗 :41.9 MB, 在所有 Java 提交中击败了6.25%的用户
  */
-package dfs.岛屿数量;
+package bfs.岛屿数量;
 
 class Solution {
     public static int[][] run = {{-1, 0}, {1, 0}, {0, -1}, {0, 1}};
