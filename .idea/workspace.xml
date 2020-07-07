@@ -5,13 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a635b64d-9f63-416e-8a2d-c7f38414de4b" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/dfs/不同路径2/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dp/不同路径2/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tree/路径总和/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/my-own-leetcode-record/Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/my-own-leetcode-record/array/每日温度/Solution.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/my-own-leetcode-record/dfs/岛屿数量/Solution.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dfs/岛屿数量/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bfs/岛屿数量/Solution.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -38,13 +33,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="Solution.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/dp/不同路径2/Solution.java">
+        <entry file="file://$PROJECT_DIR$/src/tree/路径总和/Solution.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="32" column="3" lean-forward="true" selection-start-line="32" selection-start-column="3" selection-end-line="32" selection-end-column="3" />
-              <folding>
-                <element signature="e#0#1168#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="342">
+              <caret line="18" column="8" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -78,7 +70,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/other/x的平方根/Solution.java" />
         <option value="$PROJECT_DIR$/src/other/Pow/Solution.java" />
         <option value="$PROJECT_DIR$/src/tree/二叉树的层序遍历/Solution.java" />
         <option value="$PROJECT_DIR$/src/array/只出现一次的数字/Solution.java" />
@@ -129,6 +120,7 @@
         <option value="$PROJECT_DIR$/src/tree/将有序数组转换为二叉搜索树/Solution.java" />
         <option value="$PROJECT_DIR$/src/dfs/不同路径2/Solution.java" />
         <option value="$PROJECT_DIR$/src/dp/不同路径2/Solution.java" />
+        <option value="$PROJECT_DIR$/src/tree/路径总和/Solution.java" />
       </list>
     </option>
   </component>
@@ -152,6 +144,8 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -168,14 +162,12 @@
               <item name="my-own-leetcode-record" type="b2602c69:ProjectViewProjectNode" />
               <item name="my-own-leetcode-record" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="dp" type="462c0819:PsiDirectoryNode" />
+              <item name="tree" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -367,12 +359,13 @@
       <workItem from="1593677942166" duration="13000" />
       <workItem from="1593680478595" duration="1294000" />
       <workItem from="1593787332425" duration="1142000" />
-      <workItem from="1594040823614" duration="5345000" />
+      <workItem from="1594040823614" duration="5403000" />
+      <workItem from="1594098875613" duration="1050000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="269876000" />
+    <option name="totallyTimeSpent" value="270984000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -380,29 +373,29 @@
     <layout>
       <window_info anchor="right" id="Key Promoter X" order="11" weight="0.3297587" />
       <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info id="Image Layers" order="6" />
+      <window_info anchor="right" id="Capture Analysis" order="8" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5013405" side_tool="true" weight="0.32952926" />
       <window_info anchor="right" id="Maven Projects" order="4" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="10" weight="0.32952926" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49865952" weight="0.6219686" />
+      <window_info anchor="right" id="Mybatis datasource" order="9" show_stripe_button="false" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.33808845" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Designer" order="2" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4978602" visible="true" weight="0.18297587" />
       <window_info anchor="right" id="Database" order="5" weight="0.3297587" />
       <window_info id="Structure" order="1" sideWeight="0.5021398" side_tool="true" weight="0.17493297" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="3" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.37945792" />
-      <window_info anchor="right" id="Redis Explorer" order="6" weight="0.3297587" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="9" weight="0.32952926" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info id="Image Layers" order="6" />
-      <window_info anchor="right" id="Capture Analysis" order="8" />
-      <window_info anchor="bottom" id="Version Control" order="10" weight="0.32952926" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49865952" weight="0.6219686" />
-      <window_info anchor="right" id="Mybatis datasource" order="9" show_stripe_button="false" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.33903134" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4978602" visible="true" weight="0.18297587" />
       <window_info anchor="right" id="Theme Preview" order="10" />
       <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.37945792" />
+      <window_info anchor="right" id="Redis Explorer" order="6" weight="0.3297587" />
+      <window_info anchor="bottom" id="Messages" order="9" weight="0.32952926" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -481,17 +474,10 @@
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="113" />
+      <option name="time" value="114" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/array/拥有最多糖果的孩子/Solution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="35" column="5" lean-forward="true" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_221/src.zip!/java/util/Comparator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="217">
@@ -783,13 +769,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/bfs/q.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="14" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bfs/q.java" />
     <entry file="file://$PROJECT_DIR$/src/dfs/全排列/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="475">
@@ -816,11 +796,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/dp/不同路径2/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="32" column="3" lean-forward="true" selection-start-line="32" selection-start-column="3" selection-end-line="32" selection-end-column="3" />
-          <folding>
-            <element signature="e#0#1168#0" expanded="true" />
-          </folding>
+        <state>
+          <caret line="32" column="3" selection-start-line="32" selection-start-column="3" selection-end-line="32" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tree/路径总和/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" column="8" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
         </state>
       </provider>
     </entry>
