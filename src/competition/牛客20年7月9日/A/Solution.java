@@ -10,7 +10,7 @@
 输出
 "bcvvaa"
  */
-package 牛客20年7月9日.niuke.A;
+package competition.牛客20年7月9日.A;
 
 public class Solution {
     /**

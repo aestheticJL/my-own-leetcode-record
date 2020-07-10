@@ -15,7 +15,7 @@
 输出：
 返回最少需要的操作数。
  */
-package 牛客20年7月9日.niuke.B;
+package competition.牛客20年7月9日.B;
 
 import java.util.LinkedList;
 import java.util.Queue;
