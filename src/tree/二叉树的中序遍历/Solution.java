@@ -27,24 +27,26 @@ import java.util.List;
 import java.util.Stack;
 
 class Solution {
-    public static void MidOrder(TreeNode treeNode, List<Integer> L1) {
-        Stack<TreeNode> stack = new Stack<>();
-        stack.push(treeNode);
-        while (treeNode.left != null) {
-            stack.push(treeNode.left);
-            treeNode = treeNode.left;
-        }
-        while (!stack.isEmpty()) {
-            TreeNode pop = stack.pop();
-            L1.add(pop.val);
-            if (pop.right != null) MidOrder(pop.right, L1);
-        }
-    }
+    ArrayList<Integer> res;
 
     public List<Integer> inorderTraversal(TreeNode root) {
         if (root == null) return new ArrayList<>();
-        List<Integer> L1 = new ArrayList<>();
-        MidOrder(root, L1);
-        return L1;
+        res = new ArrayList<>();
+        helper(root);
+        return res;
+    }
+
+    public void helper(TreeNode root) {
+        Stack<TreeNode> stack = new Stack<>();
+        stack.push(root);
+        while (root.left != null) {
+            stack.push(root.left);
+            root = root.left;
+        }
+        while (!stack.isEmpty()) {
+            TreeNode tempTreeNode = stack.pop();
+            res.add(tempTreeNode.val);
+            if (tempTreeNode.right != null) helper(tempTreeNode.right);
+        }
     }
 }
