@@ -18,7 +18,7 @@
 执行用时：0 ms, 在所有 Java 提交中击败了100.00%的用户
 内存消耗：39.6 MB, 在所有 Java 提交中击败了100.00%的用户
  */
-package 剑指Offer.剑指Offer11旋转数组的最小数字;
+package 剑指Offer.剑指Offer11.旋转数组的最小数字;
 
 class Solution {
     public int minArray(int[] numbers) {
