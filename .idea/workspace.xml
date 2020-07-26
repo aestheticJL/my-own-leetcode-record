@@ -5,19 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a635b64d-9f63-416e-8a2d-c7f38414de4b" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/剑指Offer/剑指Offer03/数组中重复的数字/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/剑指Offer/剑指Offer04/二维数组中的查找/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/剑指Offer/剑指Offer05/替换空格/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/剑指Offer/剑指Offer06/从尾到头打印链表/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/剑指Offer/剑指Offer07/重建二叉树/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/剑指Offer/剑指Offer09/用两个栈实现队列/CQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/剑指Offer/剑指Offer10/青蛙跳台阶问题/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/剑指Offer/剑指Offer10斐波那契数列/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/剑指Offer/剑指Offer12/矩阵中的路径/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/剑指Offer/剑指Offer13/机器人的运动范围/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/剑指Offer/剑指Offer14/剪绳子1/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/剑指Offer/剑指Offer14/剪绳子1/Solution2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/剑指Offer/剑指Offer14/剪绳子2/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/剑指Offer/剑指Offer15/二进制中1的个数/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/剑指Offer/剑指Offer16/数值的整数次方/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/剑指Offer/剑指Offer17/打印从1到最大的n位数/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/剑指Offer/剑指Offer18/删除链表的节点/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/剑指Offer/剑指Offer19/正则表达式匹配/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/剑指Offer/剑指Offer20/表示数值的字符串/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/my-own-leetcode-record/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/my-own-leetcode-record/Test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/my-own-leetcode-record/剑指Offer/剑指Offer11旋转数组的最小数字/Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/my-own-leetcode-record/剑指Offer/剑指Offer10斐波那契数列/Solution.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/剑指Offer/剑指Offer11旋转数组的最小数字/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/剑指Offer/剑指Offer11/旋转数组的最小数字/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/剑指Offer/剑指Offer10斐波那契数列/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/剑指Offer/剑指Offer10/斐波那契数列/Solution.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -42,30 +45,29 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
       <file leaf-file-name="Solution.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/剑指Offer/剑指Offer10/青蛙跳台阶问题/Solution.java">
+        <entry file="file://$PROJECT_DIR$/src/剑指Offer/剑指Offer19/正则表达式匹配/Solution.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+            <state relative-caret-position="76">
+              <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
+              <folding>
+                <element signature="e#100#101#0" expanded="true" />
+                <element signature="e#126#127#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="Solution.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/剑指Offer/剑指Offer11/旋转数组的最小数字/Solution.java">
+        <entry file="file://$PROJECT_DIR$/src/剑指Offer/剑指Offer20/表示数值的字符串/Solution.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="38" column="1" lean-forward="true" selection-start-line="38" selection-start-column="1" selection-end-line="38" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Solution.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/剑指Offer/剑指Offer10斐波那契数列/Solution.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="333">
-              <caret line="25" selection-start-line="25" selection-end-line="28" selection-end-column="39" />
+            <state relative-caret-position="76">
+              <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
+              <folding>
+                <element signature="e#92#93#0" expanded="true" />
+                <element signature="e#118#119#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -88,6 +90,9 @@
       <find>hashCode</find>
       <find>hashCode()</find>
       <find>zui</find>
+      <find>size</find>
+      <find>size()</find>
+      <find>put</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -103,21 +108,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/tree/路径总和/Solution.java" />
-        <option value="$PROJECT_DIR$/src/array/跳水板/Solution.java" />
-        <option value="$PROJECT_DIR$/src/tree/验证二叉搜索树/Solution.java" />
-        <option value="$PROJECT_DIR$/src/Solution.java" />
-        <option value="$PROJECT_DIR$/src/niuke/Solution.java" />
-        <option value="$PROJECT_DIR$/src/牛客20年7月9日/niuke/Solution.java" />
-        <option value="$PROJECT_DIR$/src/牛客20年7月9日/niuke/C/Solution.java" />
-        <option value="$PROJECT_DIR$/src/牛客20年7月9日/niuke/B/Solution.java" />
-        <option value="$PROJECT_DIR$/src/牛客20年7月9日/niuke/A/Solution.java" />
-        <option value="$PROJECT_DIR$/src/牛客20年7月9日/B/Solution.java" />
-        <option value="$PROJECT_DIR$/src/competition/牛客20年7月9日/B/Solution.java" />
-        <option value="$PROJECT_DIR$/src/dp/最佳买卖股票时机含冷冻期/Solution.java" />
-        <option value="$PROJECT_DIR$/src/tree/Solution.java" />
-        <option value="$PROJECT_DIR$/src/tree/二叉树的中序遍历/Solution.java" />
-        <option value="$PROJECT_DIR$/src/competition/牛客20年7月11日/A/Solution.java" />
         <option value="$PROJECT_DIR$/src/competition/牛客20年7月11日/B/Solution.java" />
         <option value="$PROJECT_DIR$/src/competition/leetcode/双周赛20年7月11日/A/Solution.java" />
         <option value="$PROJECT_DIR$/src/competition/leetcode/双周赛20年7月11日/B/Solution.java" />
@@ -150,10 +140,25 @@
         <option value="$PROJECT_DIR$/src/剑指Offer/剑指Offer06/从尾到头打印链表/Solution.java" />
         <option value="$PROJECT_DIR$/src/剑指Offer/剑指Offer07/重建二叉树/Solution.java" />
         <option value="$PROJECT_DIR$/src/剑指Offer/剑指Offer09/用两个栈实现队列/CQueue.java" />
-        <option value="$PROJECT_DIR$/src/Test.java" />
         <option value="$PROJECT_DIR$/src/剑指Offer/剑指Offer10斐波那契数列/Solution.java" />
         <option value="$PROJECT_DIR$/src/剑指Offer/剑指Offer10/青蛙跳台阶问题/Solution.java" />
         <option value="$PROJECT_DIR$/src/剑指Offer/剑指Offer11/旋转数组的最小数字/Solution.java" />
+        <option value="$PROJECT_DIR$/src/Test.java" />
+        <option value="$PROJECT_DIR$/src/剑指Offer/剑指Offer12/矩阵中的路径/Solution.java" />
+        <option value="$PROJECT_DIR$/src/剑指Offer/剑指Offer13/机器人的运动范围/Solution.java" />
+        <option value="$PROJECT_DIR$/src/剑指Offer剑指Offer14剪绳子/Solution.java" />
+        <option value="$PROJECT_DIR$/src/剑指Offer/剑指Offer剑指Offer14剪绳子/Solution.java" />
+        <option value="$PROJECT_DIR$/src/剑指Offer/剑指Offer14剪绳子/Solution.java" />
+        <option value="$PROJECT_DIR$/src/剑指Offer/剑指Offer14剪绳子2/Solution.java" />
+        <option value="$PROJECT_DIR$/src/剑指Offer/剑指Offer14/剪绳子1/Solution.java" />
+        <option value="$PROJECT_DIR$/src/剑指Offer/剑指Offer14/剪绳子2/Solution.java" />
+        <option value="$PROJECT_DIR$/src/剑指Offer/剑指Offer14/剪绳子1/Solution2.java" />
+        <option value="$PROJECT_DIR$/src/剑指Offer/剑指Offer15/二进制中1的个数/Solution.java" />
+        <option value="$PROJECT_DIR$/src/剑指Offer/剑指Offer16/数值的整数次方/Solution.java" />
+        <option value="$PROJECT_DIR$/src/剑指Offer/剑指Offer17/打印从1到最大的n位数/Solution.java" />
+        <option value="$PROJECT_DIR$/src/剑指Offer/剑指Offer18/删除链表的节点/Solution.java" />
+        <option value="$PROJECT_DIR$/src/剑指Offer/剑指Offer19/正则表达式匹配/Solution.java" />
+        <option value="$PROJECT_DIR$/src/剑指Offer/剑指Offer20/表示数值的字符串/Solution.java" />
       </list>
     </option>
   </component>
@@ -176,6 +181,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -192,35 +198,27 @@
               <item name="my-own-leetcode-record" type="b2602c69:ProjectViewProjectNode" />
               <item name="my-own-leetcode-record" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="design" type="462c0819:PsiDirectoryNode" />
+              <item name="bfs" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="my-own-leetcode-record" type="b2602c69:ProjectViewProjectNode" />
               <item name="my-own-leetcode-record" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="design" type="462c0819:PsiDirectoryNode" />
-              <item name="用两个栈实现队列" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="my-own-leetcode-record" type="b2602c69:ProjectViewProjectNode" />
-              <item name="my-own-leetcode-record" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="剑指Offer" type="462c0819:PsiDirectoryNode" />
+              <item name="bfs" type="462c0819:PsiDirectoryNode" />
+              <item name="o1矩阵" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="my-own-leetcode-record" type="b2602c69:ProjectViewProjectNode" />
               <item name="my-own-leetcode-record" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="剑指Offer" type="462c0819:PsiDirectoryNode" />
-              <item name="旋转数组的最小数字" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
-      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -253,36 +251,36 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Test">
-    <configuration name="HeadSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sort.堆排序.HeadSort" />
+  <component name="RunManager" selected="Application.Solution (3)">
+    <configuration name="Solution (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="剑指Offer.剑指Offer12.矩阵中的路径.Solution" />
       <module name="my-own-leetcode-record" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="sort.堆排序.*" />
+          <option name="PATTERN" value="剑指Offer.剑指Offer12.矩阵中的路径.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
     </configuration>
-    <configuration name="MergeSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sort.归并排序.MergeSort" />
+    <configuration name="Solution (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="剑指Offer.剑指Offer13.机器人的运动范围.Solution" />
       <module name="my-own-leetcode-record" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="sort.归并排序.*" />
+          <option name="PATTERN" value="剑指Offer.剑指Offer13.机器人的运动范围.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
     </configuration>
-    <configuration name="ShellSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sort.希尔排序.ShellSort" />
+    <configuration name="Solution (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="剑指Offer.剑指Offer17.打印从1到最大的n位数.Solution" />
       <module name="my-own-leetcode-record" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="sort.希尔排序.*" />
+          <option name="PATTERN" value="剑指Offer.剑指Offer17.打印从1到最大的n位数.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -345,19 +343,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.ShellSort" />
-      <item itemvalue="Application.MergeSort" />
-      <item itemvalue="Application.HeadSort" />
       <item itemvalue="Application.Test" />
       <item itemvalue="Application.Solution" />
+      <item itemvalue="Application.Solution (1)" />
+      <item itemvalue="Application.Solution (2)" />
+      <item itemvalue="Application.Solution (3)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Solution (3)" />
+        <item itemvalue="Application.Solution (2)" />
+        <item itemvalue="Application.Solution (1)" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Application.Solution" />
-        <item itemvalue="Application.HeadSort" />
-        <item itemvalue="Application.MergeSort" />
-        <item itemvalue="Application.ShellSort" />
       </list>
     </recent_temporary>
   </component>
@@ -494,12 +492,13 @@
       <workItem from="1595482659697" duration="14756000" />
       <workItem from="1595566882534" duration="1945000" />
       <workItem from="1595570906165" duration="1039000" />
-      <workItem from="1595581793109" duration="5946000" />
+      <workItem from="1595581793109" duration="7234000" />
+      <workItem from="1595750164159" duration="13039000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="373545000" />
+    <option name="totallyTimeSpent" value="387872000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -523,11 +522,12 @@
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info id="Image Layers" order="6" />
       <window_info anchor="right" id="Capture Analysis" order="8" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49865952" weight="0.30099857" />
       <window_info anchor="bottom" id="Version Control" order="10" weight="0.32952926" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49865952" weight="0.30099857" />
       <window_info anchor="right" id="Mybatis datasource" order="9" show_stripe_button="false" side_tool="true" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.3366619" />
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4978602" visible="true" weight="0.18297587" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32952926" />
       <window_info anchor="right" id="Theme Preview" order="10" />
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -535,7 +535,6 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32952926" />
     </layout>
     <layout-to-restore>
       <window_info id="Designer" order="2" />
@@ -608,102 +607,10 @@
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="138" />
+      <option name="time" value="151" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/competition/leetcode/双周赛20年7月11日/B/Solution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="532">
-          <caret line="28" column="37" selection-start-line="28" selection-start-column="37" selection-end-line="28" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/competition/leetcode/双周赛20年7月11日/C/Solution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="608">
-          <caret line="32" column="24" selection-start-line="32" selection-start-column="24" selection-end-line="32" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/listNode/合并两个有序链表/Solution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="20" column="31" lean-forward="true" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_221/src.zip!/java/util/concurrent/locks/AbstractQueuedSynchronizer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-5247">
-          <caret line="288" column="22" selection-start-line="288" selection-start-column="22" selection-end-line="288" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/dfs/不同路径2/Solution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/dfs/地下城游戏/Solution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="38" column="48" lean-forward="true" selection-start-line="38" selection-start-column="48" selection-end-line="38" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/dp/地下城游戏/Solution.java" />
-    <entry file="file://$PROJECT_DIR$/src/array/两个数组的交集2/Solution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="26" column="4" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/listNode/ListNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/listNode/合并K个排序链表/Solution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="28" column="4" lean-forward="true" selection-start-line="28" selection-start-column="4" selection-end-line="28" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/temp/Solution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/dp/三角形最小路径和/Solution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="551">
-          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/dp/不同的二叉搜索树/Solution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="328">
-          <caret line="30" column="18" lean-forward="true" selection-start-line="30" selection-start-column="18" selection-end-line="30" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_221/src.zip!/java/util/Collections.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="81" column="13" selection-start-line="81" selection-start-column="13" selection-end-line="81" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_221/src.zip!/java/util/Vector.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-13685">
@@ -876,9 +783,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
           <caret line="50" column="37" selection-start-line="50" selection-start-column="37" selection-end-line="50" selection-end-column="37" />
-          <folding>
-            <element signature="e#1051#1066#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -909,9 +813,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/剑指Offer/Solution.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/剑指Offer/剑指Offer06/从尾到头打印链表/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="304">
@@ -936,9 +837,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret selection-end-line="22" selection-end-column="3" />
-          <folding>
-            <element signature="e#0#1244#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -946,22 +844,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="418">
           <caret line="22" column="3" selection-start-line="22" selection-start-column="3" selection-end-line="22" selection-end-column="3" />
-          <folding>
-            <element signature="e#0#1251#0" expanded="true" />
-            <element signature="e#289#290#0" expanded="true" />
-            <element signature="e#320#321#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret lean-forward="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/剑指Offer/剑指Offer10斐波那契数列/Solution.java">
+    <entry file="file://$PROJECT_DIR$/src/剑指Offer/剑指Offer10/斐波那契数列/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="333">
           <caret line="25" selection-start-line="25" selection-end-line="28" selection-end-column="39" />
@@ -979,6 +865,137 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="361">
           <caret line="38" column="1" lean-forward="true" selection-start-line="38" selection-start-column="1" selection-end-line="38" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_221/src.zip!/java/util/concurrent/ConcurrentHashMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2255" column="23" selection-start-line="2255" selection-start-column="23" selection-end-line="2255" selection-end-column="23" />
+          <folding>
+            <element signature="e#44347#44348#0" expanded="true" />
+            <element signature="e#44395#44396#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bfs/o1矩阵/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="41" column="6" selection-start-line="41" selection-start-column="6" selection-end-line="41" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/剑指Offer/剑指Offer13/机器人的运动范围/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/剑指Offer/剑指Offer12/矩阵中的路径/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="518">
+          <caret line="32" selection-start-line="32" selection-end-line="32" selection-end-column="64" />
+          <folding>
+            <element signature="e#0#2093#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/剑指Offer/剑指Offer14剪绳子2/Solution.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/剑指Offer/剑指Offer14剪绳子/Solution.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/剑指Offer/剑指Offer14/剪绳子2/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="24" column="9" lean-forward="true" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/剑指Offer/剑指Offer14/剪绳子1/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" selection-start-line="1" selection-end-line="16" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/剑指Offer/剑指Offer14/剪绳子1/Solution2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/剑指Offer/剑指Offer15/二进制中1的个数/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="328">
+          <caret line="23" column="3" lean-forward="true" selection-start-line="23" selection-start-column="3" selection-end-line="23" selection-end-column="3" />
+          <folding>
+            <element signature="e#0#237#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/剑指Offer/剑指Offer16/数值的整数次方/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="423">
+          <caret line="39" column="25" lean-forward="true" selection-start-line="39" selection-start-column="25" selection-end-line="39" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#673#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/剑指Offer/剑指Offer17/打印从1到最大的n位数/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="35" lean-forward="true" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/剑指Offer/剑指Offer18/删除链表的节点/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="11" lean-forward="true" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/剑指Offer/剑指Offer19/正则表达式匹配/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
+          <folding>
+            <element signature="e#100#101#0" expanded="true" />
+            <element signature="e#126#127#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/剑指Offer/剑指Offer20/表示数值的字符串/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
+          <folding>
+            <element signature="e#92#93#0" expanded="true" />
+            <element signature="e#118#119#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

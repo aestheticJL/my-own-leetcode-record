@@ -28,7 +28,7 @@ dp
 执行用时：0 ms, 在所有 Java 提交中击败了100.00%的用户
 内存消耗：36.4 MB, 在所有 Java 提交中击败了100.00%的用户
  */
-package 剑指Offer.剑指Offer10斐波那契数列;
+package 剑指Offer.剑指Offer10.斐波那契数列;
 
 class Solution {
     public int numWays(int n) {
