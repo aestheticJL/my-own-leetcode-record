@@ -1,9 +1,10 @@
-import java.util.Stack;
+import java.util.LinkedList;
+import java.util.Queue;
 
 public class Test {
 
     public static void main(String[] args) {
-        Stack stack = new Stack();
-        stack.pop();
+        Queue<Integer> queue = new LinkedList<>();
+        queue.offer(null);
     }
 }
