@@ -14,7 +14,7 @@ public class HeadSort {
      */
     public static void bulidHead(int[] nums) {
         //构造初始堆,从第一个非叶子节点开始调整,左右孩子节点中较大的交换到父节点中
-        for (int i = (nums.length) / 2 - 1; i >= 0; i--) {
+        for (int i = (nums.length) / 2; i >= 0; i--) {
             sortHead(nums, i, nums.length);
         }
         //排序，将最大的节点放在堆尾，然后从根节点重新调整

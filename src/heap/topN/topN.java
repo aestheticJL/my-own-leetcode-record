@@ -12,7 +12,7 @@ public class topN {
         for (int i = 0; i < top; i++) {
             topN[i] = array[i];
         }
-        int mid = top / 2;
+        int mid = top / 2 - 1;
         for (int i = mid; i >= 0; i--) {
             sortHeap(i);
         }
