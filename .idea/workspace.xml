@@ -5,20 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a635b64d-9f63-416e-8a2d-c7f38414de4b" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/剑指Offer/剑指Offer41/数据流中的中位数/MedianFinder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/剑指Offer/剑指Offer42/连续子数组的最大和/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/剑指Offer/剑指Offer43/一到N整数中1出现的次数/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/剑指Offer/剑指Offer44/数字序列中某一位的数字/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/剑指Offer/剑指Offer45/把数组排成最小的数/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/剑指Offer/剑指Offer46/把数字翻译成字符串/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/剑指Offer/剑指Offer47/礼物的最大价值/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/剑指Offer/剑指Offer48/最长不含重复字符的子字符串/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/剑指Offer/剑指Offer49/丑数/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/剑指Offer/剑指Offer50/第一个只出现一次的字符/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/my-own-leetcode-record/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/my-own-leetcode-record/Test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/my-own-leetcode-record/heap/topN/topN.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/my-own-leetcode-record/heap/topN/topN.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/my-own-leetcode-record/sort/堆排序/HeadSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/my-own-leetcode-record/sort/堆排序/HeadSort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/my-own-leetcode-record/剑指Offer/剑指Offer40/最小的k个数/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/my-own-leetcode-record/剑指Offer/剑指Offer40/最小的k个数/Solution.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/heap/topN/topN.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/heap/topN/topN.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sort/堆排序/HeadSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sort/堆排序/HeadSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/剑指Offer/剑指Offer40/最小的k个数/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/剑指Offer/剑指Offer40/最小的k个数/Solution.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -44,14 +36,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Solution.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/剑指Offer/剑指Offer45/把数组排成最小的数/Solution.java">
+      <file leaf-file-name="Solution.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/剑指Offer/剑指Offer49/丑数/Solution.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="214">
-              <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="157">
+              <caret line="16" column="2" selection-start-line="16" selection-start-column="2" selection-end-line="16" selection-end-column="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Solution.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/剑指Offer/剑指Offer50/第一个只出现一次的字符/Solution.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="17" column="26" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -62,6 +60,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="FxmlFile" />
       </list>
     </option>
   </component>
@@ -92,12 +91,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/剑指Offer/剑指Offer09/用两个栈实现队列/CQueue.java" />
-        <option value="$PROJECT_DIR$/src/剑指Offer/剑指Offer10斐波那契数列/Solution.java" />
-        <option value="$PROJECT_DIR$/src/剑指Offer/剑指Offer10/青蛙跳台阶问题/Solution.java" />
-        <option value="$PROJECT_DIR$/src/剑指Offer/剑指Offer11/旋转数组的最小数字/Solution.java" />
-        <option value="$PROJECT_DIR$/src/剑指Offer/剑指Offer12/矩阵中的路径/Solution.java" />
-        <option value="$PROJECT_DIR$/src/剑指Offer/剑指Offer13/机器人的运动范围/Solution.java" />
         <option value="$PROJECT_DIR$/src/剑指Offer剑指Offer14剪绳子/Solution.java" />
         <option value="$PROJECT_DIR$/src/剑指Offer/剑指Offer剑指Offer14剪绳子/Solution.java" />
         <option value="$PROJECT_DIR$/src/剑指Offer/剑指Offer14剪绳子/Solution.java" />
@@ -143,6 +136,12 @@
         <option value="$PROJECT_DIR$/src/剑指Offer/剑指Offer43/一到N整数中1出现的次数/Solution.java" />
         <option value="$PROJECT_DIR$/src/剑指Offer/剑指Offer44/数字序列中某一位的数字/Solution.java" />
         <option value="$PROJECT_DIR$/src/剑指Offer/剑指Offer45/把数组排成最小的数/Solution.java" />
+        <option value="$PROJECT_DIR$/src/剑指Offer/Solution.java" />
+        <option value="$PROJECT_DIR$/src/剑指Offer/剑指Offer46/把数字翻译成字符串/Solution.java" />
+        <option value="$PROJECT_DIR$/src/剑指Offer/剑指Offer47/礼物的最大价值/Solution.java" />
+        <option value="$PROJECT_DIR$/src/剑指Offer/剑指Offer48/最长不含重复字符的子字符串/Solution.java" />
+        <option value="$PROJECT_DIR$/src/剑指Offer/剑指Offer49/丑数/Solution.java" />
+        <option value="$PROJECT_DIR$/src/剑指Offer/剑指Offer50/第一个只出现一次的字符/Solution.java" />
       </list>
     </option>
   </component>
@@ -467,12 +466,12 @@
       <workItem from="1595750164159" duration="16755000" />
       <workItem from="1595775311571" duration="5091000" />
       <workItem from="1595852453326" duration="18006000" />
-      <workItem from="1595941029348" duration="5463000" />
+      <workItem from="1595941029348" duration="9787000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="420148000" />
+    <option name="totallyTimeSpent" value="424472000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -594,48 +593,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/design/用两个栈实现队列/CQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="22" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/剑指Offer/剑指Offer09/用两个栈实现队列/CQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="22" column="3" selection-start-line="22" selection-start-column="3" selection-end-line="22" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/剑指Offer/剑指Offer10/斐波那契数列/Solution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="333">
-          <caret line="25" selection-start-line="25" selection-end-line="28" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/剑指Offer/剑指Offer10/青蛙跳台阶问题/Solution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/剑指Offer/剑指Offer11/旋转数组的最小数字/Solution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="38" column="1" lean-forward="true" selection-start-line="38" selection-start-column="1" selection-end-line="38" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_221/src.zip!/java/util/concurrent/ConcurrentHashMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2255" column="23" selection-start-line="2255" selection-start-column="23" selection-end-line="2255" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/bfs/o1矩阵/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
@@ -977,11 +934,53 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/剑指Offer/剑指Offer45/把数组排成最小的数/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="214">
-          <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+        <state relative-caret-position="423">
+          <caret line="31" column="30" lean-forward="true" selection-start-line="31" selection-start-column="30" selection-end-line="31" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#394#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/剑指Offer/Solution.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/剑指Offer/剑指Offer46/把数字翻译成字符串/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="7" lean-forward="true" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/剑指Offer/剑指Offer47/礼物的最大价值/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="23" column="2" selection-start-line="23" selection-start-column="2" selection-end-line="23" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/剑指Offer/剑指Offer48/最长不含重复字符的子字符串/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/剑指Offer/剑指Offer49/丑数/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="16" column="2" selection-start-line="16" selection-start-column="2" selection-end-line="16" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/剑指Offer/剑指Offer50/第一个只出现一次的字符/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" column="26" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
         </state>
       </provider>
     </entry>
