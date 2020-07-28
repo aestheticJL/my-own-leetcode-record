@@ -34,7 +34,7 @@ class Solution {
         for (int i = 0; i < k; i++) {
             heap[i] = arr[i];
         }
-        int last = heap.length / 2;
+        int last = heap.length / 2 - 1;
         for (int i = last; i >= 0; i--) {
             sortHeap(i);
         }
@@ -50,8 +50,8 @@ class Solution {
     private void sortHeap(int index) {
         int l = heap.length;
         int mid = index;
-        int left = index * 2;
-        int right = index * 2 + 1;
+        int left = index * 2 + 1;
+        int right = index * 2 + 2;
         if (left < l && heap[left] > heap[mid]) {
             mid = left;
         }

@@ -4,7 +4,7 @@ import java.util.Random;
 
 public class topN {
     public static final int top = 100;
-    public static final int count = 100000000;
+    public static final int count = 1000000;
     public static final int[] topN = new int[top];
     public static final int[] array = new int[count];
 
@@ -19,8 +19,8 @@ public class topN {
     }
 
     public static void sortHeap(int index) {
-        int left = index * 2;
-        int right = index * 2 + 1;
+        int left = index * 2 + 1;
+        int right = index * 2 + 2;
         int temp = index;
         if (left < top && topN[left] < topN[temp]) {
             temp = left;

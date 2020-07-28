@@ -2,7 +2,7 @@ package sort.堆排序;
 
 public class HeadSort {
     public static void main(String[] args) {
-        int[] nums = {122344, 4656, 34, 34, 4656, 5, 6, 1,7, 8, 9, 343, 57765, 23, 123, 21, 3, 3, 3, 7, 9,};
+        int[] nums = {0,1,1,1,4,5,3,7,7,8,10,2,7,8,0,5,2,16,12,1,19,15,5,18,2,2,22,15,8,22,17,6,22,6,22,26,32,8,10,11,2,26,9,12,9,7,28,33,20,7,2,17,44,3,52,27,2,23,19,56,56,58,36,31,1,19,19,6,65,49,27,63,29,1,69};
         bulidHead(nums);
         for (int num : nums) {
             System.out.print(num + " ");
@@ -14,7 +14,7 @@ public class HeadSort {
      */
     public static void bulidHead(int[] nums) {
         //构造初始堆,从第一个非叶子节点开始调整,左右孩子节点中较大的交换到父节点中
-        for (int i = (nums.length) / 2; i >= 0; i--) {
+        for (int i = (nums.length) / 2 - 1; i >= 0; i--) {
             sortHead(nums, i, nums.length);
         }
         //排序，将最大的节点放在堆尾，然后从根节点重新调整
@@ -27,8 +27,8 @@ public class HeadSort {
     }
 
     private static void sortHead(int[] nums, int index, int length) {
-        int left = index * 2;
-        int right = index * 2 + 1;
+        int left = index * 2 + 1;
+        int right = index * 2 + 2;
         int key = nums[index];
         int temp = index;
         if (left < length && nums[left] > nums[temp]) {
