@@ -12,7 +12,7 @@ public class QuickSortRandom {
         int ran = left + new Random().nextInt(right - left);//随机取一个元素
         int key = nums[ran];
         nums[ran] = nums[left];
-        nums[left] = key;//随机取的元素与左边第一个数交换，其实不取随机元素直接从最左边开始也行，不过无法应对极端情况
+        nums[left] = key;//随机取的元素与左边第一个数交换
         int low = left;
         int high = right;//双指针
         while (low < high) {

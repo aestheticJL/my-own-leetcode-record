@@ -27,22 +27,16 @@ package array.和可被K整除的子数组;
 
 class Solution {
     public int subarraysDivByK(int[] A, int K) {
-        int res = 0;
         int[] dp = new int[K];
         int sum = 0;
-        for (int a : A) {
-            sum = (sum + a) % K;
-            if (sum >= 0);
-            else sum += K;
-            if (sum == 0) {
-                dp[0]++;
-                res += dp[0];
-            } else if (dp[sum] == 0) {
-                dp[sum]++;
-            } else {
-                res += dp[sum];
-                dp[sum]++;
-            }
+        int res = 0;
+        for (int i = 0; i < A.length; i++) {
+            sum += A[i];
+            int temp = sum % K;
+            if (temp < 0) temp += K;
+            if (temp == 0) res++;
+            res += dp[temp];
+            dp[temp]++;
         }
         return res;
     }

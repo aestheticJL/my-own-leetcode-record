@@ -21,8 +21,6 @@ public class Solution implements Runnable{
     }
 
     public static void main(String[] args) throws InterruptedException {
-//        ThreadPoolExecutor threadPoolExecutor = new ThreadPoolExecutor(2, 2, 0, TimeUnit.SECONDS, new LinkedBlockingQueue<>());
-//        threadPoolExecutor.submit(new Solution());
         new Thread(new Solution(), "奇数线程池").start();
         Thread.sleep(1);
         new Thread(new Solution(), "偶数线程池").start();
