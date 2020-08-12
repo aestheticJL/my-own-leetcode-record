@@ -2,12 +2,7 @@ import java.util.*;
 
 public class Test {
     public static void main(String[] args) {
-        TreeMap<Integer,Integer> map = new TreeMap<Integer,Integer>(new Comparator<Integer>() {
-            @Override
-            public int compare(Integer o1, Integer o2) {
-                return o1-o2;
-            }
-        });
+        TreeMap<Integer, Integer> map = new TreeMap<Integer, Integer>((o1, o2) -> o1 - o2);
         map.put(2, 2);
         map.put(3, 3);
         map.put(4, 4);
