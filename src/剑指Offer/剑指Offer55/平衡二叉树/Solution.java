@@ -37,10 +37,10 @@ import tree.TreeNode;
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
- *     int val;
- *     TreeNode left;
- *     TreeNode right;
- *     TreeNode(int x) { val = x; }
+ * int val;
+ * TreeNode left;
+ * TreeNode right;
+ * TreeNode(int x) { val = x; }
  * }
  */
 class Solution {
@@ -51,10 +51,11 @@ class Solution {
             int leftHeight = helper(root.left);
             int rightHeight = helper(root.right);
             int diff = leftHeight - rightHeight;
-            return diff<=1&&diff>=-1&&isBalanced(root.left)&&isBalanced(root.right);
+            return diff <= 1 && diff >= -1 && isBalanced(root.left) && isBalanced(root.right);
         }
     }
-    public int helper(TreeNode root){
+
+    public int helper(TreeNode root) {
         if (root == null) {
             return 0;
         } else {
