@@ -1,7 +1,6 @@
-import java.io.Serializable;
 import java.util.*;
 
-public class Test implements Serializable {
+public class Test {
     public static void main(String[] args) {
         TreeMap<Integer, Integer> map = new TreeMap<Integer, Integer>((o1, o2) -> o1 - o2);
         List list = new ArrayList();
