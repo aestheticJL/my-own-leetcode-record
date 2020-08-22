@@ -22,6 +22,8 @@ s = "2[abc]3[cd]ef", 返回 "abcabccdcdcdef".
  */
 package string.字符串解码;
 
+import java.util.Deque;
+import java.util.LinkedList;
 import java.util.Stack;
 
 class Solution {
@@ -60,5 +62,40 @@ class Solution {
             res = stack.pop() + res;
         }
         return res;
+    }
+
+    public String decodeString2(String s) {
+        StringBuilder sb = new StringBuilder();
+        Deque<String> stack = new LinkedList();
+        int sum = 0;
+        for (int i = 0; i < s.length(); i++) {
+            if (s.charAt(i) >= '0' && s.charAt(i) <= '9') {
+                sum = sum * 10 + s.charAt(i) - '0';
+            } else if (s.charAt(i) != ']') {
+                if (sum != 0) {
+                    stack.push(sum + "");
+                    sum = 0;
+                }
+                stack.push(s.charAt(i) + "");
+            } else {
+                StringBuilder temp = new StringBuilder();
+                while (!stack.isEmpty()) {
+                    String pop = stack.pop();
+                    if (pop.equals("[")) break;
+                    temp.insert(0, pop);
+                }
+                int total = Integer.valueOf(stack.pop());
+                StringBuilder res = new StringBuilder();
+                while (total > 0) {
+                    res.append(temp);
+                    total--;
+                }
+                stack.push(res.toString());
+            }
+        }
+        while (!stack.isEmpty()) {
+            sb.insert(0, stack.pop());
+        }
+        return sb.toString();
     }
 }

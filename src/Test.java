@@ -1,30 +1,20 @@
-import java.util.*;
-
 public class Test {
     public static void main(String[] args) {
-        TreeMap<Integer, Integer> map = new TreeMap<Integer, Integer>((o1, o2) -> o1 - o2);
-        List list = new ArrayList();
-        list.add(4);
-        list.add(22);
-        list.add(14);
-        list.add(12);
-        list.add(10);
-        map.put(2, 2);
-        map.put(3, 3);
-        map.put(4, 4);
-        map.put(5, 5);
-        map.put(1, 10);
-        map.put(6, 6);
-        map.put(7, 7);
-        System.out.println(Collections.min(list));
-        Set<Map.Entry<Integer, Integer>> entries = map.entrySet();
-        for (Map.Entry<Integer, Integer> entry : entries) {
-            System.out.println(entry.getValue());
-        }
-        map.remove(map.firstKey());
-        Set<Map.Entry<Integer, Integer>> entries2 = map.entrySet();
-        for (Map.Entry<Integer, Integer> entry : entries2) {
-            System.out.println(entry.getValue());
-        }
+        Integer a = new Integer(100);
+        Integer b = new Integer(100);
+        System.out.println(a==b);
+        Integer.valueOf(1).intValue();
+        //int类型可取的最大值：2147483647
+        System.out.println(Integer.MAX_VALUE);
+        //int类型可取的最小值：-2147483648
+        System.out.println(Integer.MIN_VALUE);
+        //char类型可取的最大值：65535
+        System.out.println(Character.MAX_VALUE + 0); //加0转为int显示
+        //char类型可取的最小值：0
+        System.out.println(Character.MIN_VALUE + 0);
+        //int类型的二进制位数：32
+        System.out.println(Integer.SIZE);
+        //所表示的基本类型：int
+        System.out.println(Integer.TYPE);
     }
 }
