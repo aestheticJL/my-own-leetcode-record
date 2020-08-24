@@ -1,8 +1,19 @@
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
+import java.util.concurrent.locks.Lock;
+import java.util.concurrent.locks.ReentrantLock;
+
 public class Test {
     public static void main(String[] args) {
+        List<Integer> num = new ArrayList();
+        Collections.sort(num, (s1, s2) -> s1.compareTo(s2));
+
+        Lock lock = new ReentrantLock();
+        lock.tryLock();
         Integer a = new Integer(100);
         Integer b = new Integer(100);
-        System.out.println(a==b);
+        System.out.println(a == b);
         Integer.valueOf(1).intValue();
         //int类型可取的最大值：2147483647
         System.out.println(Integer.MAX_VALUE);
