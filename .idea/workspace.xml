@@ -5,9 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a635b64d-9f63-416e-8a2d-c7f38414de4b" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/array/前K个高频元素/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dfs/组合总和/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/temp/A/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/temp/A/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/my-own-leetcode-record/temp/A/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/my-own-leetcode-record/temp/A/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/temp/A/Main.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -40,12 +42,15 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
       <file leaf-file-name="Solution.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/array/前K个高频元素/Solution.java">
+        <entry file="file://$PROJECT_DIR$/src/dfs/组合总和/Solution.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="24" column="5" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+            <state relative-caret-position="385">
+              <caret line="37" column="5" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -97,7 +102,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/competition/老虎20年8月9日笔试/B/Main.java" />
         <option value="$PROJECT_DIR$/src/competition/老虎20年8月9日笔试/C/Main.java" />
         <option value="$PROJECT_DIR$/src/competition/老虎20年8月9日笔试/D/Main.java" />
         <option value="$PROJECT_DIR$/src/competition/老虎20年8月9日笔试/B/Solution.java" />
@@ -137,17 +141,18 @@
         <option value="$PROJECT_DIR$/src/tree/二叉树的层序遍历/Solution.java" />
         <option value="$PROJECT_DIR$/src/other/Sqrt/Sqrt.java" />
         <option value="$PROJECT_DIR$/src/other/Sqrt/Solution.java" />
-        <option value="$PROJECT_DIR$/src/temp/B/Main.java" />
         <option value="$PROJECT_DIR$/src/temp/B/Solution.java" />
         <option value="$PROJECT_DIR$/src/temp/C/Solution.java" />
         <option value="$PROJECT_DIR$/src/temp/A/Solution.java" />
         <option value="$PROJECT_DIR$/src/competition/五八同城20年8月31日/A/Solution.java" />
         <option value="$PROJECT_DIR$/src/dfs/预测赢家/Solution.java" />
-        <option value="$PROJECT_DIR$/src/Test.java" />
         <option value="$PROJECT_DIR$/src/tree/二叉树的所有路径/Solution.java" />
         <option value="$PROJECT_DIR$/src/sort/插入排序/InsertionSort.java" />
-        <option value="$PROJECT_DIR$/src/temp/A/Main.java" />
         <option value="$PROJECT_DIR$/src/array/前K个高频元素/Solution.java" />
+        <option value="$PROJECT_DIR$/src/Test.java" />
+        <option value="$PROJECT_DIR$/src/temp/A/Main.java" />
+        <option value="$PROJECT_DIR$/src/temp/B/Main.java" />
+        <option value="$PROJECT_DIR$/src/dfs/组合总和/Solution.java" />
       </list>
     </option>
   </component>
@@ -170,7 +175,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -188,13 +193,13 @@
               <item name="my-own-leetcode-record" type="b2602c69:ProjectViewProjectNode" />
               <item name="my-own-leetcode-record" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="array" type="462c0819:PsiDirectoryNode" />
+              <item name="dfs" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -233,23 +238,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="temp.A.Main" />
-      <module name="my-own-leetcode-record" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="temp.A.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Test" />
-      <module name="my-own-leetcode-record" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-    </configuration>
+  <component name="RunManager">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -291,16 +280,6 @@
       <properties />
       <listeners />
     </configuration>
-    <list>
-      <item itemvalue="Application.Test" />
-      <item itemvalue="Application.Main" />
-    </list>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Test" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -501,12 +480,14 @@
       <workItem from="1599384496965" duration="3941000" />
       <workItem from="1599445659991" duration="1197000" />
       <workItem from="1599448838156" duration="1254000" />
-      <workItem from="1599463240205" duration="591000" />
+      <workItem from="1599463240205" duration="3202000" />
+      <workItem from="1599560466856" duration="4686000" />
+      <workItem from="1599661409398" duration="92000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="629331000" />
+    <option name="totallyTimeSpent" value="636720000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -596,13 +577,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/dfs/全排列/Solution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="31" column="56" lean-forward="true" selection-start-line="31" selection-start-column="56" selection-end-line="31" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/sort/冒泡排序/BubbleSort.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
@@ -729,13 +703,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_221/src.zip!/java/lang/String.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="1152" column="15" selection-start-line="1152" selection-start-column="15" selection-end-line="1152" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/string/数青蛙/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="290">
@@ -806,7 +773,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/temp/B/Main.java" />
     <entry file="file://$PROJECT_DIR$/src/competition/五八同城20年8月31日/B/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
@@ -860,13 +826,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="233">
           <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
         </state>
       </provider>
     </entry>
@@ -926,13 +885,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/temp/A/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="5" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_221/src.zip!/java/util/Comparator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="637">
@@ -942,8 +894,34 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/array/前K个高频元素/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="24" column="5" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+        <state relative-caret-position="81">
+          <caret line="31" column="6" selection-start-line="31" selection-start-column="6" selection-end-line="31" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_221/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="110" column="19" selection-start-line="110" selection-start-column="19" selection-end-line="110" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="46" selection-start-line="3" selection-start-column="46" selection-end-line="3" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/temp/A/Main.java" />
+    <entry file="file://$PROJECT_DIR$/src/temp/B/Main.java" />
+    <entry file="file://$PROJECT_DIR$/src/dfs/组合总和/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="385">
+          <caret line="37" column="5" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
